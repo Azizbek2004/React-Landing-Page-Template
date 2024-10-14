@@ -18,7 +18,10 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
           </button>
           <a className="navbar-brand page-scroll" href="#page-top">
-            React Landing Page
+            <img
+              src="https://www.limsa.uz/_next/image?url=%2FLimsa%20-%20Logotype.png&w=256&q=75"
+              alt="logo"
+            />
           </a>{" "}
         </div>
 
