@@ -104,7 +104,7 @@ hr {
   bottom: -1px;
   width: 0;
   height: 2px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #6c2dba 0%, #ffffff 100%);
   content: "";
   transition: width 0.2s;
 }
@@ -125,7 +125,7 @@ hr {
   bottom: -1px !important;
   width: 100% !important;
   height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
+  background: #fff !important;
   content: "" !important;
   transition: width 0.2s !important;
 }
@@ -460,7 +460,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #5f17b6e1 0%, #6c2dba 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {

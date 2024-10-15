@@ -56,13 +56,30 @@ export const Navigation = (props) => {
               </a>
             </li>
             <li>
-              <a type="number" href="+998935138833">
+              <a
+                href="tel:+998935138833"
+                style={{ textTransform: "none", minWidth: "170px" }}
+              >
                 Tel: +998 (93) 513-88-33
               </a>
             </li>
-            <li>
-              <select name="" id="">
-                <option value="en">Eng</option>
+            <li style={{ margin: "9px 20px 0", padding: "7px 2px" }}>
+              <select
+                name=""
+                id=""
+                style={{
+                  background: "transparent",
+                  border: "none",
+                  color: "white",
+                }}
+              >
+                <option value="en">
+                  {/* <img
+                    src="http://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
+                    alt="United States"
+                  /> */}
+                  Eng
+                </option>
                 <option value="ru">Rus</option>
                 <option value="uz">Uzb</option>
               </select>
