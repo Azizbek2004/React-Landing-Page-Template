@@ -132,6 +132,10 @@ hr {
 .navbar-toggle {
   border-radius: 0;
 }
+
+.nav select option {
+  background-color: #6c2dba;
+}
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
   background-color: #fff;

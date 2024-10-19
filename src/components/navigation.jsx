@@ -71,13 +71,11 @@ export const Navigation = (props) => {
                   background: "transparent",
                   border: "none",
                   color: "white",
+                  outline: "none",
                 }}
               >
                 <option value="en">
-                  {/* <img
-                    src="http://purecatamphetamine.github.io/country-flag-icons/3x2/US.svg"
-                    alt="United States"
-                  /> */}
+                  <span className="fi fi-uz"></span>
                   Eng
                 </option>
                 <option value="ru">Rus</option>
