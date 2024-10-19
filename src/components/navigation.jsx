@@ -74,10 +74,7 @@ export const Navigation = (props) => {
                   outline: "none",
                 }}
               >
-                <option value="en">
-                  <span className="fi fi-uz"></span>
-                  Eng
-                </option>
+                <option value="en">Eng</option>
                 <option value="ru">Rus</option>
                 <option value="uz">Uzb</option>
               </select>
