@@ -4,6 +4,7 @@ import { Header } from "./components/header";
 import { Features } from "./components/features";
 import { About } from "./components/about";
 import { Services } from "./components/services";
+import { AboutDetail } from "./components/aboutDetail";
 // import { ServicesCards } from "./components/servicesCard";
 import { Gallery } from "./components/gallery";
 import { Testimonials } from "./components/testimonials";
@@ -28,6 +29,7 @@ const App = () => {
     <div>
       <Navigation />
       <Header data={landingPageData.Header} />
+      <AboutDetail />
       <Features data={landingPageData.Features} />
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
