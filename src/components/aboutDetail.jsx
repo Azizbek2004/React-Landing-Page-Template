@@ -3,7 +3,7 @@ import { useState } from "react";
 
 import Button from "../components/Button.jsx";
 
-const AboutDetail = () => {
+export const AboutDetail = () => {
   const [hasCopied, setHasCopied] = useState(false);
 
   const handleCopy = () => {
@@ -136,5 +136,3 @@ const AboutDetail = () => {
     </section>
   );
 };
-
-export default AboutDetail;
